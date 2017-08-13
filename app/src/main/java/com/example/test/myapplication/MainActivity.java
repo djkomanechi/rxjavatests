@@ -1,4 +1,4 @@
-package com.example.anasehiroyuki.myapplication;
+package com.example.test.myapplication;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,7 +10,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 
-import com.example.anasehiroyuki.myapplication.loader.AsyncLoader;
+import com.example.test.myapplication.loader.AsyncLoader;
 
 import rx.Observable;
 import rx.Subscription;

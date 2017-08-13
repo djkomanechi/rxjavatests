@@ -1,4 +1,4 @@
-package com.example.anasehiroyuki.myapplication.loader;
+package com.example.test.myapplication.loader;
 
 import rx.Observable;
 import rx.Observer;
@@ -51,7 +51,7 @@ public class AsyncLoader {
     }
 
     public void doit() {
-        android.util.Log.d("anase", "doit (e)")
+        android.util.Log.d("anase", "doit (e)");
         mCounter++;
         mSubscription = Observable.just(mCounter)
                 .subscribeOn(Schedulers.computation())
@@ -90,7 +90,7 @@ public class AsyncLoader {
 
                     }
                 });
-        android.util.Log.d("anase", "doit (x)")
+        android.util.Log.d("anase", "doit (x)");
     }
 
     public void release() {
